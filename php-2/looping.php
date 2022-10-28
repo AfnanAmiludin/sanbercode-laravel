@@ -125,10 +125,13 @@
     */
     for ($i = 1; $i <= 5; $i++) {
         echo "*";
+        for ($j = 1; $j <= 5; $j++) {
+            echo "*";
+        }
     }
 
 
-    echo "Asterix: ";
+    echo "<br> Asterix: ";
     echo "<br>";
     ?>
 
