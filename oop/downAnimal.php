@@ -1,7 +1,7 @@
 <?php
-include 'animal.php';
+require_once('animal.php');
 
-class frog extends Animal
+class Frog extends Animal
 {
     private $suara = "Hop-hop";
     public function jump()
@@ -10,7 +10,7 @@ class frog extends Animal
     }
 }
 
-class ape extends Animal
+class Ape extends Animal
 {
     private $suara = "Auoo";
     public function yell()
